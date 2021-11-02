@@ -197,10 +197,10 @@ a:active {
 		max-width: 1040px;
 		margin-top: 30px;
 		//background-color: lightblue;
-
+		width: 30% !important;
 		display: flex;
 		justify-content: center;
-		flex-wrap: wrap;
+		// flex-wrap: wrap;
 
 		.card {
 			width: 220px;
@@ -226,7 +226,8 @@ a:active {
 	}
 }
 
-#functions {
+#services {
+	
 	padding-top: 60px;
 	padding-bottom: 100px;
 
@@ -296,14 +297,14 @@ a:active {
 	}
 }
 
-#services {
+#values {
 	.container-fluid {
 		padding: 0;
 
-		background-image: url('../assets/landing-page-carousel/delhii.jpg');
+		background-image: url('../assets/landing-page-carousel/2.png');
 		background-attachment: fixed;
 
-		.services-overlay {
+		.values-overlay {
 			min-height: 500px;
 			width: 100%;
 			padding: 30px;
@@ -312,6 +313,7 @@ a:active {
 			display: flex;
 			justify-content: center;
 			align-items: center;
+			flex-direction: column;
 		}
 
 		.card-container {
@@ -319,6 +321,8 @@ a:active {
 			flex-wrap: wrap;
 			justify-content: center;
 			align-items: center;
+			
+			
 
 			.card {
 				width: max-content;
@@ -333,7 +337,7 @@ a:active {
 
 				.text {
 					width: 100%;
-					background-color: rgba(26, 21, 21, 0.4);
+					background-color: rgba(224, 222, 222, 0.4);
 					padding: 25px 20px 25px 40px;
 					//padding: 25px;
 					margin: 0;
@@ -816,7 +820,7 @@ footer {
 		}
 	}
 
-	#functions {
+	#services {
 		padding-bottom: 70px;
 	}
 
@@ -831,7 +835,7 @@ footer {
 		}
 	}
 
-	#services {
+	#values {
 		.container-fluid {
 			background-attachment: unset;
 
